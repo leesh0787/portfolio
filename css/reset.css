@@ -1,0 +1,50 @@
+@import url(font.css);
+*{margin: 0;padding: 0;box-sizing: border-box;cursor: none;}
+b{
+  font-weight: normal;
+  display: inline-block;
+}
+span{
+  display: inline-block;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	width: 100%;
+  font-family:'Syne','Pretendard', sans-serif;
+	font-weight: 400;
+	transition: 0.5s;
+	background: url(https://sirup.online/5th/asset/img/rumble.webp);
+  background-color: rgb(206, 206, 206);
+}
+body.dark{
+	background-color: #2f2f2f;
+}
+body.dark .work,
+body.dark .work .tit,
+body.dark .my-ab,
+.muquree-txt h4{
+	color: #fff;
+}
+
+ol, ul, li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+img{vertical-align: middle;width: 100%;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{text-decoration: none;color: #000;}
+
